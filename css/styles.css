@@ -3,6 +3,7 @@
     --color-primary-light: #faf4ea;
     --color-brand: #819b57;
     --color-brand-dark: #465929;
+    
 }
 
 
@@ -49,7 +50,7 @@ ul {
 }
 
 .container {
-    margin: 0 auto
+    margin:0px 84px;
 }
 
 /*Button*/
@@ -126,6 +127,7 @@ ul {
 .advantages-section {
     padding: 16px 0;
     background-color: var(--color-brand);
+    
 }
 
 .advantages-list {
@@ -190,6 +192,14 @@ ul {
     margin-bottom: 80px;
 }
 
+.chefs-title::after{
+    display: block;
+    width: 352px;
+    height: 2px;
+    background-color: #CFCFBC;
+    content: '';
+}
+
 .chef-title {
     margin-bottom: 16px;
     font-size: 40px;
@@ -212,7 +222,8 @@ ul {
     height: 444px;
     padding: 24px;
     background-image: linear-gradient(180deg, rgba(49, 38, 26, 0) 55.21%, rgba(49, 38, 26, 0.71) 72.92%, var(--color-primary-dark) 100%);
-    border: 1px solid lightgray; /*remove*/
+    border: 1px solid lightgray;
+    /*remove*/
     border-radius: 16px;
 }
 
