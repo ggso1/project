@@ -300,6 +300,9 @@ ul {
 }
 
 /*Contact section */
+.contact-section {
+    padding-bottom: 96px;
+}
 
 .contact-container {
     display: flex;
@@ -309,8 +312,40 @@ ul {
     margin-bottom: 16px;
 }
 
+.contact-map {
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: none;
+}
+
 
 /* Footer */
+.footer {
+    padding: 32px 0;
+}
+
+.footer-container {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-nav,
+.footer-address {
+    display: flex;
+    flex-basis: 50%;
+    gap: 20px;
+}
+
+.footer-logo,
+.footer-menu {
+    flex-grow: 1;
+}
+
+.address-list,
+.address-info {
+    flex-grow: 1;
+}
+
 .address-link {
     color: var(--color-primary-light);
     font-size: 16px;
