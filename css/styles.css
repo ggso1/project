@@ -4,9 +4,7 @@
     --color-brand-normal: #819b57;
     --color-brand-light: #CFCFBC;
     --color-brand-normal-dark: #465929;
-    /*#A28268*/
 }
-
 
 /* Base */
 body {
@@ -25,7 +23,6 @@ h6,
 p {
     margin-top: 0;
 }
-
 
 address {
     font-style: normal;
@@ -47,14 +44,16 @@ ul {
 }
 
 .section {
-    padding: 48px 0;
+    padding: 48px 15px;
 }
 
 .container {
-    margin: 0px 84px;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
 }
 
-/*Button*/
+/* Button */
 .button {
     color: var(--color-primary-light);
     background-color: var(--color-brand-normal);
@@ -67,7 +66,7 @@ ul {
     background-color: transparent;
 }
 
-/*Link */
+/* Link */
 .link {
     color: var(--color-primary-light);
 }
@@ -76,7 +75,7 @@ ul {
     color: var(--color-brand-normal);
 }
 
-/*Header*/
+/* Header */
 .header-container {
     display: flex;
     align-items: center;
@@ -97,22 +96,17 @@ ul {
     justify-content: center;
 }
 
-/*Hero section*/
+/* Hero section */
 .hero-section {
     padding: 272px 0;
-    background-image: url('../images/fon\ header.png');
+    background-image: url('../images/fon%20header.png');
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
 }
 
-
 .hero-title {
     margin-bottom: 0;
-}
-
-
-.hero-title {
     color: var(--color-primary-light);
     text-align: center;
     font-size: 128px;
@@ -124,11 +118,10 @@ ul {
     color: var(--color-brand-normal);
 }
 
-/*Advantages section*/
+/* Advantages section */
 .advantages-section {
     padding: 16px 0;
     background-color: var(--color-brand-normal);
-
 }
 
 .advantages-list {
@@ -157,8 +150,7 @@ ul {
     color: var(--color-brand-normal-dark);
 }
 
-/* Troditions section*/
-
+/* Traditions section */
 .traditions-section {
     padding-top: 96px;
 }
@@ -172,7 +164,6 @@ ul {
 .traditions-content {
     max-width: 710px;
 }
-
 
 .traditions-title {
     margin-bottom: 42px;
@@ -191,8 +182,7 @@ ul {
     max-width: 330px;
 }
 
-
-/*Chef section*/
+/* Chef section */
 .chefs-title {
     position: relative;
     margin: 0 auto 80px;
@@ -210,7 +200,6 @@ ul {
 
 .chefs-title::before {
     left: 0;
-
 }
 
 .chefs-title::after {
@@ -224,7 +213,7 @@ ul {
 }
 
 .chef-item {
-    flex-basis: calc((100% - 30px)/ 2);
+    flex-basis: calc((100% - 30px) / 2);
 }
 
 .chef-card {
@@ -233,7 +222,7 @@ ul {
 }
 
 .chef-photo {
-    border-radius: 4px 4px 4px 200px;
+    border-radius: 4px 4px 200px 4px;
 }
 
 .chef-title {
@@ -242,8 +231,7 @@ ul {
     font-weight: 600;
 }
 
-/*Formats section*/
-
+/* Formats section */
 .formats-container {
     display: flex;
     align-items: center;
@@ -264,13 +252,8 @@ ul {
     height: 444px;
     padding: 24px;
     background-image: linear-gradient(180deg, rgba(49, 38, 26, 0) 55.21%, rgba(49, 38, 26, 0.71) 72.92%, var(--color-primary-dark) 100%);
-    border: 1px solid lightgray;
-    /*remove*/
     border-radius: 16px;
-}
-
-.formats-title {
-    margin-bottom: 80px;
+    border: 1px solid lightgray;
 }
 
 .format-title {
@@ -283,7 +266,7 @@ ul {
     font-weight: 300;
 }
 
-/*Carousel*/
+/* Carousel */
 .carousel-button {
     display: flex;
     align-items: center;
@@ -310,7 +293,7 @@ ul {
     fill: var(--color-primary-light);
 }
 
-/*Contact section */
+/* Contact section */
 .contact-section {
     padding-bottom: 96px;
 }
@@ -329,12 +312,11 @@ ul {
     border: none;
 }
 
-
 /* Footer */
 .footer {
     padding: 32px 0;
     position: relative;
-    background-image: url('../images/footer\ ppp.png');
+    background-image: url('../images/footer%20ppp.png');
     background-color: var(--color-primary-dark);
     background-repeat: no-repeat;
     background-size: cover;
@@ -347,7 +329,6 @@ ul {
     bottom: 0;
     background: no-repeat;
     content: '';
-
 }
 
 .footer::before {
@@ -405,7 +386,7 @@ ul {
     font-size: 14px;
 }
 
-/*Modal*/
+/* Modal */
 .backdrop {
     position: fixed;
     top: 0;
@@ -434,6 +415,6 @@ ul {
 
 .modal-btn-close {
     position: absolute;
-    top: 40;
+    top: 40px;
     right: 40px;
 }
