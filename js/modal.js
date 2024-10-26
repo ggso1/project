@@ -1,9 +1,16 @@
-const modal = document.querySelector('.backdrop');
-const madalBtnOpen = document.querySelector('.modal-btn-open');
-const madalBtnClose = document.querySelector('.modal-btn-close');
+// Отримуємо елементи
+const openModalBtn = document.querySelector('.modal-btn-open');
+const closeModalBtn = document.querySelector('.modal-btn-close');
+const modalBackdrop = document.querySelector('.backdrop');
 
-const toggleModal = () => modal.classList.toggle('is-hidden');
+// Відкриття модального вікна
+openModalBtn.addEventListener('click', () => {
+    modalBackdrop.classList.remove('is-hidden');
+});
 
-madalBtnOpen.addEventListener('click', toggleModal);
-madalBtnClose.addEventListener('click', toggleModal)
+// Закриття модального вікна
+closeModalBtn.addEventListener('click', () => {
+    modalBackdrop.classList.add('is-hidden');
+});
+
 
