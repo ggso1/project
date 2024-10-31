@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,900;1,100&display=swap"
         rel="stylesheet">
     <!--Styles-->
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
@@ -249,10 +249,15 @@
                     <label class="form-label visually-hidden " for="user-name">Ім'я</label>
                     <input class="form-input" type="text" name="user-name" id="user-name" placeholder="Ім'я"
                         minlength="2" maxlength="20" required>
+                    <input class="form-input" type="text" name="user-name" id="user-name" placeholder="Ім'я"
+                        minlength="2" maxlength="20" required>
                 </div>
 
                 <div class="form-field">
                     <label class="form-label visually-hidden " for="user-tel">Телефон</label>
+
+                    <input class="form-input" type="tel" name="user-tel" id="user-tel" placeholder="Телефон"
+                        pattern="^\+[0-9]{12}" required>
                     <input class="form-input" type="tel" name="user-tel" id="user-tel" placeholder="Телефон"
                         pattern="^\+[0-9]{12}" required>
                 </div>
