@@ -1,0 +1,19 @@
+.hero-section {
+    padding: 272px 0;
+    background-image: url("../images/fon%20header.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.hero-title {
+    margin-bottom: 0;
+    color: var(--color-primary-light);
+    text-align: center;
+    font-size: 128px;
+    font-style: italic;
+}
+
+.hero-title .accent {
+    color: var(--color-brand-normal);
+}
